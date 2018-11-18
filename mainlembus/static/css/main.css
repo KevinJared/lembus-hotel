@@ -1,0 +1,147 @@
+/* < !-------------------------------- navbar --------------------------------------> */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+    color: rgb(231, 71, 71);
+}
+
+.dropdown {
+    padding-top: 10px;
+}
+
+.card-3 {
+    box-shadow: 0 10px 20px rgb(233, 85, 71), 0 6px 6px rgb(233, 32, 14);
+}
+
+.form-group {
+    display: inline-block;
+}
+
+#navbar {
+    height: 60px;
+    border-bottom: 1px solid rgb(233, 32, 14);
+    font-family: 'Quicksand',
+        sans-serif;
+}
+
+.container-fluid {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.row h2 {
+    text-align: center;
+}
+
+.btn1 {
+    border: 0ch;
+    padding: 0%;
+    border-radius: 0%;
+}
+
+h4 {
+    text-align: center;
+}
+
+.btn hover {
+    background-color: transparent;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: block;
+    transition: 0.5s;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.sidenav a:hover {
+    color: rgb(231, 71, 71);
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+    text-align: right;
+    top: 2px;
+    right: 25px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 35px;
+    }
+
+    .sidenav a {
+        font-size: 14px;
+    }
+}
+
+#sidenav-drop {
+    padding-top: 15px;
+    border-right: 1px solid rgb(226, 225, 225);
+    font-family: 'Encode Sans Expanded',
+        sans-serif;
+}
+
+#nav-dropdown {
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Quicksand',
+        sans-serif;
+        margin-bottom: 30px;
+}
+
+/* < !-------------------------------- main index --------------------------------------> */
+
+::-webkit-scrollbar-track {
+    background: rgb(231, 71, 71);
+    border-radius: 10px;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    bottom: 10px;
+}
+.status{
+    margin-top: 50px;
+    line-height: 2em;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .left,
+    .main,
+    .right {
+        width: 100%;
+    }
+}

@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-------------------------------- topheader -------------------------------------->
+<div id="topheader">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" style="height:650px;  margin-top:0px;">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="../static/images/file.jpg" alt="First slide" style="z-index: 0;;">
+
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../static/images/Olivers-camp-dining-table.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../static/images/DSC_0991-1600x655.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../static/images/room-slide1.jpg" alt="Fourth slide">
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------- end of topheader -------------------------------------->
+
+<!-------------------------------- BODY-------------------------------------->
+<div class="top container">
+    <div class="top">
+        <h1><strong>ACCOMODATION</strong> </h1>
+        <h5 style="color:#ff004c;">BEST HOTEL</h5>
+    </div>
+
+    <div class="status row">
+        <div class="col-md-8">
+            <img src="../static/images/room-slide1.jpg" alt="" width="100%" class="img-responsive">
+        </div>
+        <div class="col-md-4">
+            <h2>CONFERENCE ROOM</h2>
+            <p>Spacious Room for conferences. With a maximum capacity of fifty esttemed guests. Book a hotel in Kenya
+                online. Hotels from budget to luxury. Good rates. No reservation costs. Read hotel reviews from
+                real guests.</p>
+            <button class="block btn-danger"> BOOK NOW &nbsp; <strong>from</strong>&nbsp; Ksh.30000 </button>
+        </div>
+    </div>
+
+    <div class="status row">
+        <div class="col-md-4">
+            <h2>WEDDINGS</h2>
+            <p>Spacious Room for conferences. With a maximum capacity of fifty esttemed guests. Book a hotel in Kenya
+                online. Hotels from budget to luxury. Good rates. No reservation costs. Read hotel reviews from
+                real guests.</p>
+            <button class="block btn-danger"> BOOK NOW &nbsp; <strong>from</strong>&nbsp; Ksh.30000 </button>
+        </div>
+        <div class="col-md-8">
+            <img src="../static/images/Olivers-camp-dining-table.jpg" alt="" width="100%" class="img-responsive">
+        </div>
+    </div>
+
+    <div class="status row">
+        <div class="col-md-8">
+            <img src="../static/images/file.jpg" alt="" width="100%" class="img-responsive">
+        </div>
+        <div class="col-md-4">
+            <h2>ACCOMODATION ROOM</h2>
+            <p>Spacious Room for conferences. With a maximum capacity of fifty esttemed guests. Book a hotel in Kenya
+                online. Hotels from budget to luxury. Good rates. No reservation costs. Read hotel reviews from
+                real guests.</p>
+            <button class="block btn-danger"> BOOK NOW &nbsp; <strong>from</strong>&nbsp; Ksh.30000 </button>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------END OF  BODY-------------------------------------->
+{%endblock%}
